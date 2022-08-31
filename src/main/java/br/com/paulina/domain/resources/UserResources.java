@@ -21,8 +21,6 @@ public class UserResources {
 	@Autowired
 	private ModelMapper mapper;
 	
-	
-	
 	@Autowired
 	private UserService service;	
 	

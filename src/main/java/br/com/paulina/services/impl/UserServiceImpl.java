@@ -58,7 +58,6 @@ public class UserServiceImpl implements UserService {
 	public void delete(Integer id) {
 		this.findById(id);
 		repository.deleteById(id);
-		
 	}
 	
 }
